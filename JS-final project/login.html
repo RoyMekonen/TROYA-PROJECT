@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Font-Awesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- bootstrap link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- style link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="vh-100 gradient-custom">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card bg-dark text-white" style="border-radius: 1rem">
+              <div class="card-body p-5 text-center">
+                <div class="mb-md-5 mt-md-4 pb-5">
+                  <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                  <p class="text-white-50 mb-5">
+                    Please enter your login and password!
+                  </p>
+
+                  <div class="form-outline form-white mb-4">
+                    <label class="form-label" for="typeEmailX"
+                      >User Name:</label
+                    >
+                    <input
+                      type="email"
+                      id="user"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <label class="form-label" for="typePasswordX"
+                      >Password:</label
+                    >
+                    <input
+                      type="password"
+                      id="pass"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
+                  <button
+                    class="btn btn-outline-light btn-lg px-5"
+                    type="submit"
+                    onclick="login()"
+                  >
+                    Login
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      //the array with the users info
+      let accountArr = [
+        {
+          user: "roy",
+          pass: "2807",
+          id: "db248274-492d-4523-ace9-020951bbb3c3",
+          img: "./image/royWorkOut.png",
+        },
+        {
+          user: "aviel",
+          pass: "0000",
+          id: "8a6c89ef-acb7-481d-9fd0-70c7291726cd",
+          img: "./image/avielWorkOut.png",
+        },
+        {
+          user: "or",
+          pass: "1111",
+          id: "a908b2fc-082e-475d-b6d1-e6108d9686f5",
+          img: "./image/womanWorkOut.png",
+        },
+      ];
+      // push the users to the local storage
+      localStorage.setItem("account", JSON.stringify(accountArr));
+      // the function to check if the user in the system
+      function login() {
+        let insert = false;
+        let userName = document.getElementById("user").value;
+        let password = document.getElementById("pass").value;
+        for (let i = 0; i < accountArr.length; i++) {
+          if (
+            accountArr[i].pass === password &&
+            accountArr[i].user === userName
+          ) {
+            return (window.location.href = "loading.html");
+          }
+          insert = true;
+        }
+        if (insert) {
+          alert("pass or user name not right");
+        }
+      }
+    </script>
+  </body>
+
+  <!-- the axios connect -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"
+    integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <!-- the js connect -->
+  <script src="app.js"></script>
+  <!-- bootstrap js link  -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>

@@ -1,0 +1,15 @@
+// conect al the styles index to the main style scss
+@import './scss/exerciseInfo';
+@import './scss/trainigProgram';
+@import './scss/loading';
+@import './scss/articals';
+@import './scss/login';
+@import './scss/concat';
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+
+
