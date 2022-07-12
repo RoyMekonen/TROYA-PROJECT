@@ -14,8 +14,6 @@ The site introduces the user to gyms around the country, gives him training prog
 3. Use axios to get API.
 4. Build a function that dispaly data And match it to different arrays.
 
-# Design
+# Wireframe
  https://miro.com/app/board/uXjVOnjvaa4=/
-<!-- ### Web 
- ![Wireframe - 1](./JS_final_project/screenshots/firstWeb.png)
- -->
+
