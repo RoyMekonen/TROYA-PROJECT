@@ -1,4 +1,4 @@
-# TROYA-PROJECTTroya
+# TROYA-PROJECT
 ## Descreption
 The site introduces the user to gyms around the country, gives him training programs, tips and sample articles. Displays with the help of an API information about various exercises and an option for a more specific search
 ## Project Flow
