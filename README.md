@@ -15,7 +15,7 @@ The site introduces the user to gyms around the country, gives him training prog
 4. Build a function that dispaly data And match it to different arrays.
 
 # Design
-
+ https://miro.com/app/board/uXjVOnjvaa4=/
 <!-- ### Web 
  ![Wireframe - 1](./JS_final_project/screenshots/firstWeb.png)
  -->
