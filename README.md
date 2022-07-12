@@ -16,5 +16,6 @@ The site introduces the user to gyms around the country, gives him training prog
 
 # Design
 
-### Web 
+<!-- ### Web 
  ![Wireframe - 1](./JS_final_project/screenshots/firstWeb.png)
+ -->
