@@ -14,4 +14,7 @@ The site introduces the user to gyms around the country, gives him training prog
 3. Use axios to get API.
 4. Build a function that dispaly data And match it to different arrays.
 
-# Wireframes & Design
+# Design
+
+### Web 
+![Wireframe - 1](./marvel-img/thor_lob_crd_01.jpg)
