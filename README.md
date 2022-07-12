@@ -17,4 +17,4 @@ The site introduces the user to gyms around the country, gives him training prog
 # Design
 
 ### Web 
-![Wireframe - 1](./JS-final project/screenshots/fiveMobile.png)
+![Wireframe - 1](./JS-finalproject/screenshots/fiveMobile.png)
