@@ -17,4 +17,4 @@ The site introduces the user to gyms around the country, gives him training prog
 # Design
 
 ### Web 
-![Wireframe - 1](./marvel-img/thor_lob_crd_01.jpg)
+![Wireframe - 1](./JS-final project/screenshots/firstWeb.png)
