@@ -12,7 +12,7 @@ Website of a gym company across the country, gives to the user training programs
 1. Build the function to translate part of the API to english.
 2. The main design of the site and the mobile adaptation.
 3. Use axios to get API.
-4. Build a function that dispaly data And match it to different arrays.
+4. Build a function that display data and match it to different arrays.
 
 # Wireframe
  https://miro.com/app/board/uXjVOnjvaa4=/
