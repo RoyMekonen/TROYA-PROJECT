@@ -1,6 +1,6 @@
 # TROYA-PROJECT
 ## Descreption
-The site introduces the user to gyms around the country, gives him training programs, tips and sample articles. Displays with the help of an API information about various exercises and an option for a more specific search
+Website of a gym company across the country, gives to the user training programs, tips and simple articles. Displays with the help of an API information about various exercises and an option for a more specific search
 ## Project Flow
 * Difficulties:
 1. I don't success the option to register on the site.
