@@ -1,4 +1,4 @@
-# TROYA-PROJECT
+# T(ROY)A PROJECT
 ## Descreption
 Website of a gym company across the country, gives to the user training programs, tips and simple articles. Displays with the help of an API information about various exercises and an option for a more specific search
 ## Project Flow
